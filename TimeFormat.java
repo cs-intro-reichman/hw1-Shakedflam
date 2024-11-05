@@ -18,6 +18,8 @@ public class TimeFormat {
 			ampm= "AM";
 		}else{
 			ampm= "PM";
+		}
+		if (hours>12){
 			hours-=12;
 		}
 		if (minutes<10){
