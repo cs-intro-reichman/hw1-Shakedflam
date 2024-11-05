@@ -22,7 +22,7 @@ public class TimeFormat {
 		}
 		if (minutes<10){
 		    String stringMinutes= Integer.toString(minutes);
-		    min=min+minutes;
+		    min=min+stringMinutes;
 		    System.out.println(hours+":"+min+" "+ampm);
 		}
 		System.out.println(hours+":"+minutes+" "+ampm);
