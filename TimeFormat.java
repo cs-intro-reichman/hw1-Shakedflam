@@ -24,9 +24,9 @@ public class TimeFormat {
 		    String stringMinutes= Integer.toString(minutes);
 		    min=min+stringMinutes;
 		    System.out.println(hours+":"+min+" "+ampm);
-		}
+		}else{
 		System.out.println(hours+":"+minutes+" "+ampm);
-		
+		}
 
 	}
 }
