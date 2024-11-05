@@ -20,7 +20,7 @@ public class TimeFormat {
 			hours-=12;
 		}
 		if (minutes<10){
-			minutes=Integer.parseInt(""+"0"+minutes);
+			String min="0"+minutes;
 		}
 		System.out.println(hours+":"+minutes+" "+ampm);
 
